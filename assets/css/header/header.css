@@ -47,6 +47,10 @@
     margin-left: 1.7rem;
 }
 
+.link-none{
+    text-decoration: none;
+}
+
 .profile-icon__image{
     background-image: url(../../img/user-solid.svg);
     background-repeat: no-repeat;

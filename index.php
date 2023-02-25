@@ -1,41 +1,48 @@
 <?php
-include_once("helpers/url.php");
+include_once("templates/header.php");
 ?>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HL Atalaia - Início</title>
-    <link rel="stylesheet" href="<?=$BASE_URL?>/assets/css/style.css">
-</head>
-<body>
-    <section class="header">
-        <div class="header__top">
-            <div class="header__top--left">
-                <a href="<?=$BASE_URL?>"><img class="header__top--left_image" src="<?=$BASE_URL?>/assets/img/logo.png"></a>
-            </div>
-            <div class="header__top--right">
-                <div class="cart-icon">
-                    <a href="<?=$BASE_URL?>">
-                    <div  class="cart-icon__icon"></div>
-                    <div class="cart-icon__items">0</div>
-                    </a>
-                </div>
-                <div class="profile-icon">
-                    <a href="<?=$BASE_URL?>">
-                    <div class="profile-icon__image"></div>
-                    </a>
-                </div>
+
+<section class="banner">
+    <img src="<?=$BASE_URL?>/assets/img/banner.png" class="banner_image">
+</section>
+
+<section class="destaques">
+    <p class="destaques__titulo">DESTAQUES</p>
+    <div class="destaques__container">
+        <div  class="destaques__container--l-button">
+            <div class="destaques__container--l-button--icon"></div>
+        </div>
+        <img src="assets/img/imagem_teste1.jpg"  class="destaques__container--imagem">
+        <div class="destaques__container--r-button">
+            <div class="destaques__container--r-button--icon"></div>
+        </div>
+    </div>
+    <div class="destaques__pagination">
+        <div class="destaques__pagination--button"></div>
+        <div class="destaques__pagination--button active"></div>
+        <div class="destaques__pagination--button"></div>
+        <div class="destaques__pagination--button"></div>
+        <div class="destaques__pagination--button"></div>
+    </div>
+</section>
+<section>
+    <article>
+        <div></div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+    </article>
+    <article>
+        <div>
+            <div></div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
-        <div class="header__bottom">
-            <div class="header__bottom--bars">
-                <div class="header__bottom--bar"></div>
-            </div>
-            <div class="header__bottom--searchbar">
-                <input type="text" class="header__bottom--searchbar_area" placeholder="Pesquisa"></input><div class="header__bottom--searchbar_space"><div class="header__bottom--searchbar_space-icon"></div></div>
-            </div>
-        </div>
-    </section>
+    </article>
+</section>
