@@ -1,0 +1,102 @@
+.destaques{
+    width: 100vw;
+    height: 36vh;
+    background-color: #d9d9d9;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.destaques__titulo{
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+.destaques__container{
+    width: 100%;
+    height: 10.3rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.destaques__container--l-button{
+    width: 45px;
+    height: 10.3rem;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.5s;
+}
+
+.destaques__container--l-button:hover{
+    background-color: rgba(217, 217, 217, .5);
+}
+
+.destaques__container--r-button{
+    width: 45px;
+    height: 10.3rem;
+    position: fixed;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 0.5s;
+}
+
+.destaques__container--r-button:hover{
+    background-color: rgba(217, 217, 217, .5);
+}
+
+.destaques__container--imagem{
+    width: calc(100% - 2rem);
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.destaques__container--l-button--icon{
+    background-image: url(../../img/chevron-left-solid.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+.destaques__container--r-button--icon{
+    background-image: url(../../img/chevron-right-solid.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.destaques__pagination{
+    margin-top: 1rem;
+    background-color: black;
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaques__pagination--button{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: aqua;
+}
